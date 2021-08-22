@@ -69,3 +69,4 @@ cfw-bypass-bak:
   - 172.31.*
   - 192.168.*
   - <local>
+mode: Rule
