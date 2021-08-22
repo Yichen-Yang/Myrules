@@ -36,7 +36,7 @@ mixed-port: 7890
 log-level: silent
 experimental:
   ignore-resolve-fail: true
-external-controller: '127.0.0.1:9090'
+external-controller: '0.0.0.0:9090'
 cfw-latency-timeout: 3000
 cfw-latency-url: http://www.gstatic.com/generate_204
 cfw-conn-break-strategy:
