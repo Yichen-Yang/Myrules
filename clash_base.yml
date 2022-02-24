@@ -148,7 +148,7 @@ experimental:
   ignore-resolve-fail: true
 external-controller: '0.0.0.0:9090'
 cfw-latency-timeout: 3000
-cfw-latency-url: http://www.gstatic.com/generate_204
+cfw-latency-url: https://www.google.com/generate_204
 cfw-conn-break-strategy:
   proxy: chain # none/chain/all
   profile: true # true/false
