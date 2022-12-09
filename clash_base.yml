@@ -146,6 +146,7 @@ mixed-port: 7890
 log-level: silent
 experimental:
   ignore-resolve-fail: true
+  sniff-tls-sni: true
 external-controller: '0.0.0.0:9090'
 cfw-latency-timeout: 3000
 cfw-latency-url: https://www.google.com/generate_204
