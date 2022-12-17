@@ -123,6 +123,7 @@ dns:
       - https://doh.qis.io/dns-query
       - https://doh.powerdns.org/dns-query
       - https://public.dns.iij.jp/dns-query
+      - https://185.222.222.222/dns-query
       - tls://9.9.9.9:853
       - tls://1.1.1.1:853
       - tls://8.8.8.8:853
