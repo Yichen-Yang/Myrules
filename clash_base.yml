@@ -114,6 +114,7 @@ dns:
       - tls://dot.360.cn:853
       - tls://223.5.5.5:853
       - tls://dns.rubyfish.cn:853
+      - tls://dns.ipv6dns.com:853
       - https://dns-unfiltered.adguard.com/dns-query
     fallback:
       - https://doh.dns.sb/dns-query
