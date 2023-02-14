@@ -136,6 +136,7 @@ dns:
       - tls://dns.quad9.net:853
       - tls://cloudflare-dns.com:853
       - tls://dns.google:853
+      - tls://dns64.dns.google:853
     fallback-filter:
       geoip: true
       geoip-code: CN
