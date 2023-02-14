@@ -6,10 +6,10 @@ dns:
     # 以下填写的 DNS 服务器将会被用来解析 DNS 服务的域名
     # 仅填写 DNS 服务器的 IP 地址
     default-nameserver:
-      - 1.2.4.8
       - 223.5.5.5
       - 114.114.114.114
       - 119.29.29.29
+      - 1.2.4.8
     enhanced-mode: fake-ip # 或 fake-ip、redir-host
     fake-ip-range: 198.18.0.1/16
     fake-ip-filter:
@@ -111,12 +111,12 @@ dns:
       - https://doh.360.cn/dns-query
       - https://i.233py.com/dns-query
       - https://v6.rubyfish.cn/dns-query
+      - https://dns-unfiltered.adguard.com/dns-query
       - tls://dot.360.cn:853
       - tls://dns.alidns.com:853
       - tls://dns.rubyfish.cn:853
       - tls://v6.rubyfish.cn:853
       - tls://dns.ipv6dns.com:853
-      - https://dns-unfiltered.adguard.com/dns-query
     fallback:
       - https://doh.dns.sb/dns-query
       - https://1.1.1.1/dns-query
