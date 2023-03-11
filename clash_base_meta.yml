@@ -1,0 +1,201 @@
+dns:
+    enable: true
+    listen: 0.0.0.0:53
+    ipv6: true # 当此选项为 false 时, AAAA 请求将返回空
+
+    # 以下填写的 DNS 服务器将会被用来解析 DNS 服务的域名
+    # 仅填写 DNS 服务器的 IP 地址
+    default-nameserver:
+      - 223.5.5.5
+      - 114.114.114.114
+      - 119.29.29.29
+      - 1.2.4.8
+    enhanced-mode: fake-ip # 或 fake-ip、redir-host
+    fake-ip-range: 198.18.0.1/16
+    fake-ip-filter:
+      - '*.lan'
+      - '*.localdomain'
+      - '*.example'
+      - '*.invalid'
+      - '*.localhost'
+      - '*.test'
+      - '*.local'
+      - '*.home.arpa'
+      - 'time.*.com'
+      - 'time.*.gov'
+      - 'time.*.edu.cn'
+      - 'time.*.apple.com'
+      - 'time1.*.com'
+      - 'time2.*.com'
+      - 'time3.*.com'
+      - 'time4.*.com'
+      - 'time5.*.com'
+      - 'time6.*.com'
+      - 'time7.*.com'
+      - 'ntp.*.com'
+      - 'ntp1.*.com'
+      - 'ntp2.*.com'
+      - 'ntp3.*.com'
+      - 'ntp4.*.com'
+      - 'ntp5.*.com'
+      - 'ntp6.*.com'
+      - 'ntp7.*.com'
+      - '*.time.edu.cn'
+      - '*.ntp.org.cn'
+      - '+.pool.ntp.org'
+      - 'time1.cloud.tencent.com'
+      - 'music.163.com'
+      - '*.music.163.com'
+      - '*.126.net'
+      - 'musicapi.taihe.com'
+      - 'music.taihe.com'
+      - 'songsearch.kugou.com'
+      - 'trackercdn.kugou.com'
+      - '*.kuwo.cn'
+      - 'api-jooxtt.sanook.com'
+      - 'api.joox.com'
+      - 'joox.com'
+      - 'y.qq.com'
+      - '*.y.qq.com'
+      - 'streamoc.music.tc.qq.com'
+      - 'mobileoc.music.tc.qq.com'
+      - 'isure.stream.qqmusic.qq.com'
+      - 'dl.stream.qqmusic.qq.com'
+      - 'aqqmusic.tc.qq.com'
+      - 'amobile.music.tc.qq.com'
+      - '*.xiami.com'
+      - '*.music.migu.cn'
+      - 'music.migu.cn'
+      - '*.msftconnecttest.com'
+      - '*.msftncsi.com'
+      - 'msftconnecttest.com'
+      - 'msftncsi.com'
+      - 'localhost.ptlogin2.qq.com'
+      - 'localhost.sec.qq.com'
+      - '+.srv.nintendo.net'
+      - '+.stun.playstation.net'
+      - 'xbox.*.microsoft.com'
+      - 'xnotify.xboxlive.com'
+      - '+.battlenet.com.cn'
+      - '+.wotgame.cn'
+      - '+.wggames.cn'
+      - '+.wowsgame.cn'
+      - '+.wargaming.net'
+      - 'proxy.golang.org'
+      - 'stun.*.*'
+      - 'stun.*.*.*'
+      - '+.stun.*.*'
+      - '+.stun.*.*.*'
+      - '+.stun.*.*.*.*'
+      - 'heartbeat.belkin.com'
+      - '*.linksys.com'
+      - '*.linksyssmartwifi.com'
+      - '*.router.asus.com'
+      - 'tplogin.cn'
+      - 'mesu.apple.com'
+      - 'swscan.apple.com'
+      - 'swquery.apple.com'
+      - 'swdownload.apple.com'
+      - 'swcdn.apple.com'
+      - 'swdist.apple.com'
+      - 'lens.l.google.com'
+      - 'stun.l.google.com'
+      - '+.nflxvideo.net'
+      - '*.square-enix.com'
+      - '*.finalfantasyxiv.com'
+      - '*.ffxiv.com'
+    nameserver:
+      - dhcp://system
+      - https://dns.alidns.com/dns-query
+      - https://doh.pub/dns-query
+      - https://dns.rubyfish.cn/dns-query
+      - https://doh.360.cn/dns-query
+      - https://i.233py.com/dns-query
+      - https://v6.rubyfish.cn/dns-query
+      - https://dns-unfiltered.adguard.com/dns-query
+      - tls://dot.360.cn:853
+      - tls://dns.alidns.com:853
+      - tls://dns.rubyfish.cn:853
+      - tls://v6.rubyfish.cn:853
+      - tls://dns.ipv6dns.com:853
+    fallback:
+      - https://doh.dns.sb/dns-query
+      - https://cloudflare-dns.com/dns-query
+      - https://dns.quad9.net/dns-query
+      - https://doh.opendns.com/dns-query
+      - https://dns.google/dns-query
+      - https://doh.qis.io/dns-query
+      - https://doh.powerdns.org/dns-query
+      - https://public.dns.iij.jp/dns-query
+      - https://185.222.222.222/dns-query
+      - https://dns64.dns.google/dns-query
+      - https://[2606:4700:4700::1111]/dns-query
+      - https://[2606:4700:4700::1001]/dns-query
+      - https://[2606:4700:4700::64]/dns-query
+      - https://[2606:4700:4700::6464]/dns-query
+      - tls://dns.quad9.net:853
+      - tls://cloudflare-dns.com:853
+      - tls://dns.google:853
+      - tls://dns64.dns.google:853
+    fallback-filter:
+      geoip: true
+      geoip-code: CN
+      ipcidr:
+       - 240.0.0.0/4
+       - 0.0.0.0/8
+       - 10.0.0.0/8
+       - 100.64.0.0/10
+       - 127.0.0.0/8
+       - 169.254.0.0/16
+       - 172.16.0.0/12
+       - 192.0.0.0/24
+       - 192.0.2.0/24
+       - 192.88.99.0/24
+       - 192.168.0.0/16
+       - 198.18.0.0/15
+       - 198.51.100.0/24
+       - 203.0.113.0/24
+       - 224.0.0.0/4
+       - 240.0.0.0/4
+       - 255.255.255.255/32
+allow-lan: true
+mixed-port: 7890
+log-level: silent
+ipv6: true
+experimental:
+  ignore-resolve-fail: true
+  sniff-tls-sni: true
+external-controller: '0.0.0.0:9090'
+cfw-latency-timeout: 3000
+cfw-latency-url: https://www.google.com/generate_204
+cfw-conn-break-strategy:
+  proxy: chain # none/chain/all
+  profile: true # true/false
+  mode: true # true/false
+cfw-bypass-bak:
+  # 原有字段不用删除
+  - qq.com
+  - 'music.163.com' # 网易云域名1
+  - '*.music.126.net' # 网易云域名2
+  - localhost
+  - 127.*
+  - 10.*
+  - 172.16.*
+  - 172.17.*
+  - 172.18.*
+  - 172.19.*
+  - 172.20.*
+  - 172.21.*
+  - 172.22.*
+  - 172.23.*
+  - 172.24.*
+  - 172.25.*
+  - 172.26.*
+  - 172.27.*
+  - 172.28.*
+  - 172.29.*
+  - 172.30.*
+  - 172.31.*
+  - 192.168.*
+  - <local>
+mode: Rule
