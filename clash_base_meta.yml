@@ -120,23 +120,23 @@ dns:
       - tls://dns.ipv6dns.com:853
     fallback:
       - https://doh.dns.sb/dns-query
-      - https://cloudflare-dns.com/dns-query
-      - https://dns.quad9.net/dns-query
-      - https://doh.opendns.com/dns-query
-      - https://dns.google/dns-query
-      - https://doh.qis.io/dns-query
-      - https://doh.powerdns.org/dns-query
-      - https://public.dns.iij.jp/dns-query
-      - https://185.222.222.222/dns-query
-      - https://dns64.dns.google/dns-query
-      - https://[2606:4700:4700::1111]/dns-query
-      - https://[2606:4700:4700::1001]/dns-query
-      - https://[2606:4700:4700::64]/dns-query
-      - https://[2606:4700:4700::6464]/dns-query
-      - tls://dns.quad9.net:853
-      - tls://cloudflare-dns.com:853
-      - tls://dns.google:853
-      - tls://dns64.dns.google:853
+      - 'https://cloudflare-dns.com/dns-query#🚀 节点选择'
+      - 'https://dns.quad9.net/dns-query#🚀 节点选择'
+      - 'https://doh.opendns.com/dns-query#🚀 节点选择'
+      - 'https://dns.google/dns-query#🚀 节点选择'
+      - 'https://doh.qis.io/dns-query#🚀 节点选择'
+      - 'https://doh.powerdns.org/dns-query#🚀 节点选择'
+      - 'https://public.dns.iij.jp/dns-query#🚀 节点选择'
+      - 'https://185.222.222.222/dns-query#🚀 节点选择'
+      - 'https://dns64.dns.google/dns-query#🚀 节点选择'
+      - 'https://[2606:4700:4700::1111]/dns-query#🚀 节点选择'
+      - 'https://[2606:4700:4700::1001]/dns-query#🚀 节点选择'
+      - 'https://[2606:4700:4700::64]/dns-query#🚀 节点选择'
+      - 'https://[2606:4700:4700::6464]/dns-query#🚀 节点选择'
+      - 'tls://dns.quad9.net:853#🚀 节点选择'
+      - 'tls://cloudflare-dns.com:853#🚀 节点选择'
+      - 'tls://dns.google:853#🚀 节点选择'
+      - 'tls://dns64.dns.google:853#🚀 节点选择'
     fallback-filter:
       geoip: true
       geoip-code: CN
@@ -158,6 +158,24 @@ dns:
        - 224.0.0.0/4
        - 240.0.0.0/4
        - 255.255.255.255/32
+sniffer:
+  enable: true
+  sniffing:
+    - tls
+    - http
+  skip-domain:
+    - 'Mijia Cloud'
+    - 'dlg.io.mi.com'
+    - '+.apple.com'
+  # - '*.baidu.com'
+    
+  force-domain:
+  # - '+'
+    - 'google.com'
+    
+  port-whitelist:
+    - 443
+    - 8000-9000
 allow-lan: true
 mixed-port: 7890
 log-level: silent
