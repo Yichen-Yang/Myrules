@@ -190,6 +190,9 @@ cfw-conn-break-strategy:
   proxy: chain # none/chain/all
   profile: true # true/false
   mode: true # true/false
+profile:                   
+  store-selected: true
+  store-fake-ip: true
 cfw-bypass-bak:
   # 原有字段不用删除
   - qq.com
