@@ -10,9 +10,6 @@ dns:
       - 114.114.114.114
       - 119.29.29.29
       - 1.2.4.8
-    proxy-server-nameserver:
-        - https://public.dns.iij.jp/dns-query
-        - https://doh.dns.sb/dns-query
     enhanced-mode: fake-ip # 或 fake-ip、redir-host
     fake-ip-range: 198.18.0.1/16
     fake-ip-filter:
