@@ -31,6 +31,9 @@ dns:
       - tls://dns.google:853
       - tls://dns64.dns.google:853
       - quic://dns-unfiltered.adguard.com:784
+      - https://cn-east.iqiqzz.com/dns-query
+      - tls://cn-east.iqiqzz.com:853
+      - quic://cn-east.ovo.glass:853
     fake-ip-range: 198.18.0.1/16
     fake-ip-filter:
       - '*.lan'
@@ -139,6 +142,9 @@ dns:
       - tls://v6.rubyfish.cn:853
       - tls://dns.ipv6dns.com:853
     fallback:
+      - https://cn-east.iqiqzz.com/dns-query
+      - tls://cn-east.iqiqzz.com:853
+      - quic://cn-east.ovo.glass:853
       - 'https://doh.dns.sb/dns-query#🚀 节点选择'
       - 'https://cloudflare-dns.com/dns-query#🚀 节点选择'
       - 'https://dns.quad9.net/dns-query#🚀 节点选择'
