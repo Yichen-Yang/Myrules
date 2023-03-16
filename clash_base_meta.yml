@@ -114,6 +114,7 @@ dns:
       - https://v6.rubyfish.cn/dns-query
       - https://dns.cfiec.net/dns-query
       - tls://dot.360.cn:853
+      - tls://dot.pub:853
       - tls://dns.alidns.com:853
       - tls://dns.rubyfish.cn:853
       - tls://v6.rubyfish.cn:853
