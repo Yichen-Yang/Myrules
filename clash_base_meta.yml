@@ -172,7 +172,7 @@ dns:
       - tls://p2.freedns.controld.com:853
       - tls://p3.freedns.controld.com:853
       - tls://doh.mullvad.net:853
-      - tls://dandelionsprout.asuscomm.com:853:853
+      - tls://dandelionsprout.asuscomm.com:853
       - quic://dns-unfiltered.adguard.com:784
       - quic://dns.futuredns.me:784
       - quic://doh.tiar.app:784
@@ -445,7 +445,7 @@ dns:
       - 'tls://p2.freedns.controld.com:853#🚀 节点选择'
       - 'tls://p3.freedns.controld.com:853#🚀 节点选择'
       - 'tls://doh.mullvad.net:853#🚀 节点选择'
-      - 'tls://dandelionsprout.asuscomm.com:853:853#🚀 节点选择'
+      - 'tls://dandelionsprout.asuscomm.com:853#🚀 节点选择'
       - 'quic://dns-unfiltered.adguard.com:784#🚀 节点选择'
       - 'quic://dns.futuredns.me:784#🚀 节点选择'
       - 'quic://doh.tiar.app:784#🚀 节点选择'
