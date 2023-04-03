@@ -123,8 +123,17 @@ dns:
       - tls://dns.cfiec.net:853
     fallback:
       - https://cn-east.iqiqzz.com/dns-query
+      - https://cn-east.iqiqzz.com/cdn
+      - https://cn-east-rsa.iqiqzz.com/dns-query
+      - https://cn-east-rsa.iqiqzz.com/cdn
       - tls://cn-east.iqiqzz.com:853
       - quic://cn-east.ovo.glass:853
+      - https://cn-south.iqiqzz.com/dns-query
+      - https://cn-south.iqiqzz.com/cdn
+      - https://cn-south-rsa.iqiqzz.com/dns-query
+      - https://cn-south-rsa.iqiqzz.com/cdn
+      - tls://cn-south.iqiqzz.com:853
+      - quic://cn-south.iqiqzz.com:853
       - 'https://doh.dns.sb/dns-query#🚀 节点选择'
       - 'https://cloudflare-dns.com/dns-query#🚀 节点选择'
       - 'https://dns.quad9.net/dns-query#🚀 节点选择'
