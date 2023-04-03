@@ -15,6 +15,36 @@ dns:
       - https://1.12.12.12/dns-query 
       - tls://1.12.12.12
       - tls://120.53.53.53
+    proxy-server-nameserver:
+      - https://cn-east.iqiqzz.com/dns-query
+      - https://cn-east.iqiqzz.com/cdn
+      - https://cn-east-rsa.iqiqzz.com/dns-query
+      - https://cn-east-rsa.iqiqzz.com/cdn
+      - tls://cn-east.iqiqzz.com:853
+      - quic://cn-east.ovo.glass:853
+      - https://cn-south.iqiqzz.com/dns-query
+      - https://cn-south.iqiqzz.com/cdn
+      - https://cn-south-rsa.iqiqzz.com/dns-query
+      - https://cn-south-rsa.iqiqzz.com/cdn
+      - tls://cn-south.iqiqzz.com:853
+      - quic://cn-south.iqiqzz.com:853
+      - https://doh.dns.sb/dns-query
+      - https://cloudflare-dns.com/dns-query
+      - https://dns.quad9.net/dns-query
+      - https://doh.opendns.com/dns-query
+      - https://dns.google/dns-query
+      - https://doh.qis.io/dns-query
+      - https://doh.powerdns.org/dns-query
+      - https://public.dns.iij.jp/dns-query
+      - https://doh-jp.blahdns.com/dns-query
+      - https://dns64.dns.google/dns-query
+      - https://dns.twnic.tw/dns-query
+      - tls://dns.quad9.net:853
+      - tls://cloudflare-dns.com:853
+      - tls://dns.google:853
+      - tls://dns64.dns.google:853
+      - https://dns-unfiltered.adguard.com/dns-query
+      - quic://dns-unfiltered.adguard.com:784
     enhanced-mode: fake-ip # 或 fake-ip、redir-host
     fake-ip-range: 198.18.0.1/16
     fake-ip-filter:
