@@ -47,6 +47,7 @@ dns:
       - https://dns.comss.one/dns-query
       - https://dns.east.comss.one/dns-query
       - https://doh-fi.blahdns.com/dns-query
+      - https://doh-jp.blahdns.com/dns-query
       - https://doh-de.blahdns.com/dns-query
       - https://doh.tiarap.org/dns-query
       - https://doh.tiar.app/dns-query
@@ -59,12 +60,15 @@ dns:
       - https://dns.digitale-gesellschaft.ch/dns-query
       - https://doh.libredns.gr/dns-query
       - https://ibksturm.synology.me/dns-query
+      - https://odvr.nic.cz/doh
+      - https://kaitain.restena.lu/dns-query
       - https://blitz.ahadns.com/dns-query
       - https://blitz.ahadns.com/1:1
       - https://blitz.ahadns.com/1:1.12
       - https://doh.nl.ahadns.net/dns-query
       - https://doh.la.ahadns.net/dns-query
       - https://basic.rethinkdns.com/dns-query
+      - https://doh.mullvad.net/dns-query
       - https://freedns.controld.com/p1
       - https://freedns.controld.com/p2
       - https://freedns.controld.com/p3
@@ -262,6 +266,7 @@ dns:
       - 'https://dns.comss.one/dns-query#🚀 节点选择'
       - 'https://dns.east.comss.one/dns-query#🚀 节点选择'
       - 'https://doh-fi.blahdns.com/dns-query#🚀 节点选择'
+      - 'https://doh-jp.blahdns.com/dns-query#🚀 节点选择'
       - 'https://doh-de.blahdns.com/dns-query#🚀 节点选择'
       - 'https://doh.tiarap.org/dns-query#🚀 节点选择'
       - 'https://doh.tiar.app/dns-query#🚀 节点选择'
@@ -274,12 +279,15 @@ dns:
       - 'https://dns.digitale-gesellschaft.ch/dns-query#🚀 节点选择'
       - 'https://doh.libredns.gr/dns-query#🚀 节点选择'
       - 'https://ibksturm.synology.me/dns-query#🚀 节点选择'
+      - 'https://odvr.nic.cz/doh#🚀 节点选择'
+      - 'https://kaitain.restena.lu/dns-query#🚀 节点选择'
       - 'https://blitz.ahadns.com/dns-query#🚀 节点选择'
       - 'https://blitz.ahadns.com/1:1#🚀 节点选择'
       - 'https://blitz.ahadns.com/1:1.12#🚀 节点选择'
       - 'https://doh.nl.ahadns.net/dns-query#🚀 节点选择'
       - 'https://doh.la.ahadns.net/dns-query#🚀 节点选择'
       - 'https://basic.rethinkdns.com/dns-query#🚀 节点选择'
+      - 'https://doh.mullvad.net/dns-query#🚀 节点选择'
       - 'https://freedns.controld.com/p1#🚀 节点选择'
       - 'https://freedns.controld.com/p2#🚀 节点选择'
       - 'https://freedns.controld.com/p3#🚀 节点选择'
