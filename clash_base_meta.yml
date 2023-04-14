@@ -59,6 +59,7 @@ dns:
       - https://dns.digitale-gesellschaft.ch/dns-query
       - https://doh.libredns.gr/dns-query
       - https://ibksturm.synology.me/dns-query
+      - https://blitz.ahadns.com/dns-query
       - https://blitz.ahadns.com/1:1
       - https://blitz.ahadns.com/1:1.12
       - https://doh.nl.ahadns.net/dns-query
@@ -273,6 +274,7 @@ dns:
       - 'https://dns.digitale-gesellschaft.ch/dns-query#🚀 节点选择'
       - 'https://doh.libredns.gr/dns-query#🚀 节点选择'
       - 'https://ibksturm.synology.me/dns-query#🚀 节点选择'
+      - 'https://blitz.ahadns.com/dns-query#🚀 节点选择'
       - 'https://blitz.ahadns.com/1:1#🚀 节点选择'
       - 'https://blitz.ahadns.com/1:1.12#🚀 节点选择'
       - 'https://doh.nl.ahadns.net/dns-query#🚀 节点选择'
