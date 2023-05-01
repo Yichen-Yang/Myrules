@@ -16,6 +16,7 @@ dns:
       - tls://1.12.12.12
       - tls://120.53.53.53
     proxy-server-nameserver:
+      - https://doh.apad.pro/dns-query
       - https://cn-east.iqiqzz.com/dns-query
       - https://cn-east.iqiqzz.com/cdn
       - https://cn-east-rsa.iqiqzz.com/dns-query
@@ -235,6 +236,7 @@ dns:
       - tls://dns.ipv6dns.com:853
       - tls://dns.cfiec.net:853
     fallback:
+      - https://doh.apad.pro/dns-query
       - https://cn-east.iqiqzz.com/dns-query
       - https://cn-east.iqiqzz.com/cdn
       - https://cn-east-rsa.iqiqzz.com/dns-query
