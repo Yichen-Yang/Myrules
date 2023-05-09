@@ -13,8 +13,8 @@ dns:
       - https://223.6.6.6/dns-query
       - https://120.53.53.53/dns-query
       - https://1.12.12.12/dns-query 
-      - tls://1.12.12.12
-      - tls://120.53.53.53
+      - tls://1.12.12.12:853
+      - tls://120.53.53.53:853
     proxy-server-nameserver:
       - https://doh.apad.pro/dns-query
       - https://cn-east.iqiqzz.com/dns-query
@@ -219,7 +219,7 @@ dns:
       - '*.finalfantasyxiv.com'
       - '*.ffxiv.com'
     nameserver:
-      - dhcp://system
+      - system
       - https://dns.alidns.com/dns-query
       - https://doh.pub/dns-query
       - https://sm2.doh.pub/dns-query
