@@ -1,5 +1,5 @@
 dns:
-    启用: true
+    enable: true
     listen: 0.0.0.0:53
     ipv6: true # 当此选项为 false 时, AAAA 请求将返回空
     prefer-h3: false
