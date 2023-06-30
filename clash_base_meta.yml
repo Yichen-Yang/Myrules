@@ -258,7 +258,7 @@ dns:
        - 240.0.0.0/4
        - 255.255.255.255/32
 sniffer:
-  启用: true
+  enable: true
   force-dns-mapping: true
   parse-pure-ip: true
   override-destination: true                                
@@ -293,7 +293,7 @@ cfw-latency-timeout: 3000
 cfw-latency-url: https://www.google.com/generate_204
 cfw-conn-break-strategy:
   proxy: chain # none/chain/all
-  个人资料: true # true/false
+  profile: true # true/false
   mode: true # true/false
 profile:                   
   store-selected: true
