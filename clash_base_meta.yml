@@ -1,8 +1,8 @@
 dns:
-    enable: true
+    启用: true
     listen: 0.0.0.0:53
     ipv6: true # 当此选项为 false 时, AAAA 请求将返回空
-    prefer-h3: true
+    prefer-h3: false
 
     # 以下填写的 DNS 服务器将会被用来解析 DNS 服务的域名
     # 仅填写 DNS 服务器的 IP 地址
@@ -15,115 +15,6 @@ dns:
       - https://1.12.12.12/dns-query 
       - tls://1.12.12.12:853
       - tls://120.53.53.53:853
-    proxy-server-nameserver:
-      - https://doh.apad.pro/dns-query
-      - https://cn-east.iqiqzz.com/dns-query
-      - https://cn-east.iqiqzz.com/cdn
-      - https://cn-east-rsa.iqiqzz.com/dns-query
-      - https://cn-east-rsa.iqiqzz.com/cdn
-      - quic://cn-east.ovo.glass:853
-      - https://cn-south.iqiqzz.com/dns-query
-      - https://cn-south.iqiqzz.com/cdn
-      - https://cn-south-rsa.iqiqzz.com/dns-query
-      - https://cn-south-rsa.iqiqzz.com/cdn
-      - quic://cn-south.iqiqzz.com:853
-      - https://doh.dns.sb/dns-query
-      - https://cloudflare-dns.com/dns-query
-      - https://dns.quad9.net/dns-query
-      - https://doh.opendns.com/dns-query
-      - https://dns.google/dns-query
-      - https://doh.qis.io/dns-query
-      - https://public.dns.iij.jp/dns-query
-      - https://dns64.dns.google/dns-query
-      - https://dns.twnic.tw/dns-query
-      - https://freedns.controld.com/p0
-      - https://dns2.nextdns.io/dns-query
-      - https://dns1.nextdns.io/dns-query
-      - https://dns.nextdns.io/dns-query
-      - https://dns.adguard-dns.com/dns-query
-      - https://unfiltered.adguard-dns.com/dns-query
-      - https://dns10.quad9.net/dns-query
-      - https://dns11.quad9.net/dns-query
-      - https://dns.switch.ch/dns-query
-      - https://dns.comss.one/dns-query
-      - https://dns.east.comss.one/dns-query
-      - https://doh-fi.blahdns.com/dns-query
-      - https://doh-jp.blahdns.com/dns-query
-      - https://doh-de.blahdns.com/dns-query
-      - https://doh.tiarap.org/dns-query
-      - https://doh.tiar.app/dns-query
-      - https://jp.tiarap.org/dns-query
-      - https://jp.tiar.app/dns-query
-      - https://doh.applied-privacy.net/query
-      - https://dns.decloudus.com/dns-query
-      - https://dnsforge.de/dns-query
-      - https://doh.ffmuc.net/dns-query
-      - https://dns.digitale-gesellschaft.ch/dns-query
-      - https://doh.libredns.gr/dns-query
-      - https://ibksturm.synology.me/dns-query
-      - https://odvr.nic.cz/doh
-      - https://kaitain.restena.lu/dns-query
-      - https://blitz.ahadns.com/dns-query
-      - https://blitz.ahadns.com/1:1
-      - https://blitz.ahadns.com/1:1.12
-      - https://doh.nl.ahadns.net/dns-query
-      - https://doh.la.ahadns.net/dns-query
-      - https://basic.rethinkdns.com/dns-query
-      - https://doh.mullvad.net/dns-query
-      - https://freedns.controld.com/p1
-      - https://freedns.controld.com/p2
-      - https://freedns.controld.com/p3
-      - https://dandelionsprout.asuscomm.com:2501/dns-query
-      - https://dns-unfiltered.adguard.com/dns-query
-      - tls://dns.quad9.net:853
-      - tls://p0.freedns.controld.com
-      - tls://dns.google:853
-      - tls://dns64.dns.google:853
-      - tls://dns.adguard-dns.com:853
-      - tls://unfiltered.adguard-dns.com:853
-      - tls://dns10.quad9.net:853
-      - tls://dns11.quad9.net:853
-      - tls://dns.switch.ch:853
-      - tls://dns.comss.one:853
-      - tls://dns.east.comss.one:853
-      - tls://dot-fi.blahdns.com:853
-      - tls://dot-jp.blahdns.com:853
-      - tls://dot-de.blahdns.com:853
-      - tls://fi.dot.dns.snopyta.orgI:853
-      - tls://dns-dot.dnsforfamily.com:853
-      - tls://odvr.nic.cz:853
-      - tls://public.dns.iij.jp:853
-      - tls://101.101.101.101:853
-      - tls://dot.tiar.app:853
-      - tls://jp.tiar.app:853
-      - tls://dns.oszx.co:853
-      - tls://dot1.applied-privacy.net:853
-      - tls://dns.decloudus.com:853
-      - tls://dnsforge.de:853
-      - tls://kaitain.restena.lu:853
-      - tls://dot.ffmuc.net:853
-      - tls://dns.digitale-gesellschaft.ch:853
-      - tls://dot.libredns.gr:853
-      - tls://ibksturm.synology.me:853
-      - tls://getdnsapi.net:853
-      - tls://unicast.censurfridns.dk:853
-      - tls://anycast.censurfridns.dk:853
-      - tls://dns.cmrg.net:853
-      - tls://dns.neutopia.org:853
-      - tls://dot.nl.ahadns.net:853
-      - tls://dot.la.ahadns.net:853
-      - tls://dot.seby.io:853
-      - tls://dns.nextdns.io:853
-      - tls://anycast.dns.nextdns.io:853
-      - tls://max.rethinkdns.com:853
-      - tls://p1.freedns.controld.com:853
-      - tls://p2.freedns.controld.com:853
-      - tls://p3.freedns.controld.com:853
-      - tls://doh.mullvad.net:853
-      - tls://dandelionsprout.asuscomm.com:853
-      - quic://dns-unfiltered.adguard.com:784
-      - quic://dns.futuredns.me:784
-      - quic://doh.tiar.app:784
     enhanced-mode: fake-ip # 或 fake-ip、redir-host
     fake-ip-range: 198.18.0.1/16
     fake-ip-filter:
@@ -218,35 +109,36 @@ dns:
       - '*.square-enix.com'
       - '*.finalfantasyxiv.com'
       - '*.ffxiv.com'
+      - WORKGROUP
     nameserver:
-      - system
-      - https://dns.alidns.com/dns-query
-      - https://doh.pub/dns-query
-      - https://sm2.doh.pub/dns-query
-      - https://dns.rubyfish.cn/dns-query
-      - https://doh.360.cn/dns-query
-      - https://i.233py.com/dns-query
-      - https://v6.rubyfish.cn/dns-query
-      - https://dns.cfiec.net/dns-query
-      - tls://dot.360.cn:853
-      - tls://dot.pub:853
-      - tls://dns.alidns.com:853
-      - tls://dns.rubyfish.cn:853
-      - tls://v6.rubyfish.cn:853
-      - tls://dns.ipv6dns.com:853
-      - tls://dns.cfiec.net:853
+      - 'system#🎯 全球直连'
+      - 'https://dns.alidns.com/dns-query#🎯 全球直连'
+      - 'https://doh.pub/dns-query#🎯 全球直连'
+      - 'https://sm2.doh.pub/dns-query#🎯 全球直连'
+      - 'https://dns.rubyfish.cn/dns-query#🎯 全球直连'
+      - 'https://doh.360.cn/dns-query#🎯 全球直连'
+      - 'https://i.233py.com/dns-query#🎯 全球直连'
+      - 'https://v6.rubyfish.cn/dns-query#🎯 全球直连'
+      - 'https://dns.cfiec.net/dns-query#🎯 全球直连'
+      - 'tls://dot.360.cn:853#🎯 全球直连'
+      - 'tls://dot.pub:853#🎯 全球直连'
+      - 'tls://dns.alidns.com:853#🎯 全球直连'
+      - 'tls://dns.rubyfish.cn:853#🎯 全球直连'
+      - 'tls://v6.rubyfish.cn:853#🎯 全球直连'
+      - 'tls://dns.ipv6dns.com:853#🎯 全球直连'
+      - 'tls://dns.cfiec.net:853#🎯 全球直连'
     fallback:
-      - https://doh.apad.pro/dns-query
-      - https://cn-east.iqiqzz.com/dns-query
-      - https://cn-east.iqiqzz.com/cdn
-      - https://cn-east-rsa.iqiqzz.com/dns-query
-      - https://cn-east-rsa.iqiqzz.com/cdn
-      - quic://cn-east.ovo.glass:853
-      - https://cn-south.iqiqzz.com/dns-query
-      - https://cn-south.iqiqzz.com/cdn
-      - https://cn-south-rsa.iqiqzz.com/dns-query
-      - https://cn-south-rsa.iqiqzz.com/cdn
-      - quic://cn-south.iqiqzz.com:853
+      - 'https://doh.apad.pro/dns-query#🎯 全球直连'
+      - 'https://cn-east.iqiqzz.com/dns-query#🎯 全球直连'
+      - 'https://cn-east.iqiqzz.com/cdn#🎯 全球直连'
+      - 'https://cn-east-rsa.iqiqzz.com/dns-query#🎯 全球直连'
+      - 'https://cn-east-rsa.iqiqzz.com/cdn#🎯 全球直连'
+      - 'quic://cn-east.ovo.glass:853#🎯 全球直连'
+      - 'https://cn-south.iqiqzz.com/dns-query#🎯 全球直连'
+      - 'https://cn-south.iqiqzz.com/cdn#🎯 全球直连'
+      - 'https://cn-south-rsa.iqiqzz.com/dns-query#🎯 全球直连'
+      - 'https://cn-south-rsa.iqiqzz.com/cdn#🎯 全球直连'
+      - 'quic://cn-south.iqiqzz.com:853#🎯 全球直连'
       - 'https://doh.dns.sb/dns-query#🚀 节点选择'
       - 'https://cloudflare-dns.com/dns-query#🚀 节点选择'
       - 'https://dns.quad9.net/dns-query#🚀 节点选择'
@@ -366,7 +258,7 @@ dns:
        - 240.0.0.0/4
        - 255.255.255.255/32
 sniffer:
-  enable: true
+  启用: true
   force-dns-mapping: true
   parse-pure-ip: true
   override-destination: true                                
@@ -401,7 +293,7 @@ cfw-latency-timeout: 3000
 cfw-latency-url: https://www.google.com/generate_204
 cfw-conn-break-strategy:
   proxy: chain # none/chain/all
-  profile: true # true/false
+  个人资料: true # true/false
   mode: true # true/false
 profile:                   
   store-selected: true
