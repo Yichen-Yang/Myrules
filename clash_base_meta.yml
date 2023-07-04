@@ -297,7 +297,7 @@ cfw-conn-break-strategy:
   mode: true # true/false
 profile:                   
   store-selected: true
-  store-fake-ip: true
+  store-fake-ip: false
 cfw-bypass-bak:
   # 原有字段不用删除
   - qq.com
