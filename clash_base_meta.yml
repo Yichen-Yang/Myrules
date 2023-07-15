@@ -281,7 +281,7 @@ geox-url:
   geosite: "https://cdn.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/geosite.dat"
   mmdb: "https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/Country.mmdb"
 allow-lan: true
-tcp-concurrent: false
+tcp-concurrent: true
 mixed-port: 7890
 log-level: silent
 ipv6: true
@@ -297,7 +297,7 @@ cfw-conn-break-strategy:
   mode: true # true/false
 profile:                   
   store-selected: true
-  store-fake-ip: false
+  store-fake-ip: true
 cfw-bypass-bak:
   # 原有字段不用删除
   - qq.com
