@@ -15,6 +15,64 @@ dns:
       - https://1.12.12.12/dns-query 
       - tls://1.12.12.12:853
       - tls://120.53.53.53:853
+    proxy-server-nameserver:
+      -  https://doh.apad.pro/dns-query
+      -  https://cn-east.iqiqzz.com/dns-query
+      -  https://cn-east.iqiqzz.com/cdn
+      -  https://cn-east-rsa.iqiqzz.com/dns-query
+      -  https://cn-east-rsa.iqiqzz.com/cdn
+      -  https://cn-south.iqiqzz.com/dns-query
+      -  https://cn-south.iqiqzz.com/cdn
+      -  https://cn-south-rsa.iqiqzz.com/dns-query
+      -  https://cn-south-rsa.iqiqzz.com/cdn
+      -  https://doh.dns.sb/dns-query
+      -  https://cloudflare-dns.com/dns-query
+      -  https://dns.quad9.net/dns-query
+      -  https://doh.opendns.com/dns-query
+      -  https://dns.google/dns-query
+      -  https://doh.qis.io/dns-query
+      -  https://public.dns.iij.jp/dns-query
+      -  https://dns64.dns.google/dns-query
+      -  https://dns.twnic.tw/dns-query
+      -  https://freedns.controld.com/p0
+      -  https://dns2.nextdns.io/dns-query
+      -  https://dns1.nextdns.io/dns-query
+      -  https://dns.nextdns.io/dns-query
+      -  https://dns.adguard-dns.com/dns-query
+      -  https://unfiltered.adguard-dns.com/dns-query
+      -  https://dns10.quad9.net/dns-query
+      -  https://dns11.quad9.net/dns-query
+      -  https://dns.switch.ch/dns-query
+      -  https://dns.comss.one/dns-query
+      -  https://dns.east.comss.one/dns-query
+      -  https://doh-fi.blahdns.com/dns-query
+      -  https://doh-jp.blahdns.com/dns-query
+      -  https://doh-de.blahdns.com/dns-query
+      -  https://doh.tiarap.org/dns-query
+      -  https://doh.tiar.app/dns-query
+      -  https://jp.tiarap.org/dns-query
+      -  https://jp.tiar.app/dns-query
+      -  https://doh.applied-privacy.net/query
+      -  https://dns.decloudus.com/dns-query
+      -  https://dnsforge.de/dns-query
+      -  https://doh.ffmuc.net/dns-query
+      -  https://dns.digitale-gesellschaft.ch/dns-query
+      -  https://doh.libredns.gr/dns-query
+      -  https://ibksturm.synology.me/dns-query
+      -  https://odvr.nic.cz/doh
+      -  https://kaitain.restena.lu/dns-query
+      -  https://blitz.ahadns.com/dns-query
+      -  https://blitz.ahadns.com/1:1
+      -  https://blitz.ahadns.com/1:1.12
+      -  https://doh.nl.ahadns.net/dns-query
+      -  https://doh.la.ahadns.net/dns-query
+      -  https://basic.rethinkdns.com/dns-query
+      -  https://doh.mullvad.net/dns-query
+      -  https://freedns.controld.com/p1
+      -  https://freedns.controld.com/p2
+      -  https://freedns.controld.com/p3
+      -  https://dandelionsprout.asuscomm.com:2501/dns-query
+      -  https://dns-unfiltered.adguard.com/dns-query
     enhanced-mode: fake-ip # 或 fake-ip、redir-host
     fake-ip-range: 198.18.0.1/16
     fake-ip-filter:
