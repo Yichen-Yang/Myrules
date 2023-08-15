@@ -132,6 +132,7 @@ dns:
     - https://cn-a-rsa.iqiqz.com/dns-query
     - https://cn-a-rsa.iqiqz.com/cdn
     - quic://cn-a.ovo.glass:853#DIRECT
+    - tls://cn-a.iqiqz.com:853#DIRECT
     - https://cn-b.iqiqz.com/dns-query
     - https://cn-b.iqiqz.com/cdn
     - https://cn-b-rsa.iqiqz.com/dns-query
