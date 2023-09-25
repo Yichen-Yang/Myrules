@@ -220,7 +220,6 @@ dns:
     - tls://unicast.censurfridns.dk:853#🚀 节点选择
     - tls://anycast.censurfridns.dk:853#🚀 节点选择
     - tls://dns.cmrg.net:853#🚀 节点选择
-    - tls://dns.neutopia.org:853#🚀 节点选择
     - tls://dot.nl.ahadns.net:853#🚀 节点选择
     - tls://dot.la.ahadns.net:853#🚀 节点选择
     - tls://dot.seby.io:853#🚀 节点选择
@@ -337,7 +336,6 @@ dns:
       - tls://unicast.censurfridns.dk:853#🚀 节点选择
       - tls://anycast.censurfridns.dk:853#🚀 节点选择
       - tls://dns.cmrg.net:853#🚀 节点选择
-      - tls://dns.neutopia.org:853#🚀 节点选择
       - tls://dot.nl.ahadns.net:853#🚀 节点选择
       - tls://dot.la.ahadns.net:853#🚀 节点选择
       - tls://dot.seby.io:853#🚀 节点选择
