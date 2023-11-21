@@ -128,26 +128,29 @@ dns:
       - https://cn-a.iqiqz.com/cdn
       - https://cn-a-rsa.iqiqz.com/dns-query
       - https://cn-a-rsa.iqiqz.com/cdn
-      - tls://cn-a.iqiqz.com:853
+      - tls://cn-a.iqiqz.com:853#DIRECT
       - https://cn-b.iqiqz.com/dns-query
       - https://cn-b.iqiqz.com/cdn
       - https://cn-b-rsa.iqiqz.com/dns-query
       - https://cn-b-rsa.iqiqz.com/cdn
       - https://doh.dns.sb/dns-query
       - https://cloudflare-dns.com/dns-query
-      - https://dns.quad9.net/dns-query
+      - https://dns10.quad9.net/dns-query
+      - https://dns11.quad9.net/dns-query
       - https://doh.opendns.com/dns-query
       - https://dns.google/dns-query
       - https://public.dns.iij.jp/dns-query
       - https://dns.twnic.tw/dns-query
-      - https://dns-unfiltered.adguard.com/dns-query
-      - tls://dns.quad9.net:853
+      - https://unfiltered.adguard-dns.com/dns-query
+      - tls://dns10.quad9.net:853
+      - tls://dns11.quad9.net:853
       - tls://dns.google:853
-      - tls://1dot1dot1dot1.cloudflare-dns.com:853    
+      - tls://1dot1dot1dot1.cloudflare-dns.com:853
       - tls://unfiltered.adguard-dns.com:853
       - tls://public.dns.iij.jp:853
       - tls://dns.twnic.tw:853
       - tls://dot.sb:853
+      - tls://dns.umbrella.com:853
     fallback-filter:
       geoip: true
       geoip-code: CN
