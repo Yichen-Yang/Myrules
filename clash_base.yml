@@ -106,37 +106,51 @@ dns:
       - '*.ffxiv.com'
     nameserver:
       - dhcp://system
+      - system
       - https://dns.alidns.com/dns-query
       - https://doh.pub/dns-query
+      - https://sm2.doh.pub/dns-query
       - https://dns.rubyfish.cn/dns-query
       - https://doh.360.cn/dns-query
       - https://i.233py.com/dns-query
       - https://v6.rubyfish.cn/dns-query
-      - https://dns-unfiltered.adguard.com/dns-query
+      - https://dns.cfiec.net/dns-query
       - tls://dot.360.cn:853
+      - tls://dot.pub:853
       - tls://dns.alidns.com:853
       - tls://dns.rubyfish.cn:853
       - tls://v6.rubyfish.cn:853
       - tls://dns.ipv6dns.com:853
+      - tls://dns.cfiec.net:853
     fallback:
+      - https://doh.apad.pro/dns-query
+      - https://cn-a.iqiqz.com/dns-query
+      - https://cn-a.iqiqz.com/cdn
+      - https://cn-a-rsa.iqiqz.com/dns-query
+      - https://cn-a-rsa.iqiqz.com/cdn
+      - quic://cn-a.ovo.glass:853
+      - tls://cn-a.iqiqz.com:853
+      - https://cn-b.iqiqz.com/dns-query
+      - https://cn-b.iqiqz.com/cdn
+      - https://cn-b-rsa.iqiqz.com/dns-query
+      - https://cn-b-rsa.iqiqz.com/cdn
+      - quic://cn-b.iqiqz.com:853
       - https://doh.dns.sb/dns-query
       - https://cloudflare-dns.com/dns-query
       - https://dns.quad9.net/dns-query
       - https://doh.opendns.com/dns-query
       - https://dns.google/dns-query
-      - https://doh.qis.io/dns-query
-      - https://doh.powerdns.org/dns-query
       - https://public.dns.iij.jp/dns-query
-      - https://185.222.222.222/dns-query
-      - https://dns64.dns.google/dns-query
-      - https://[2606:4700:4700::1111]/dns-query
-      - https://[2606:4700:4700::1001]/dns-query
-      - https://[2606:4700:4700::64]/dns-query
-      - https://[2606:4700:4700::6464]/dns-query
+      - https://dns.twnic.tw/dns-query
+      - https://dns-unfiltered.adguard.com/dns-query
       - tls://dns.quad9.net:853
-      - tls://cloudflare-dns.com:853
       - tls://dns.google:853
-      - tls://dns64.dns.google:853
+      - tls://1dot1dot1dot1.cloudflare-dns.com:853    
+      - tls://unfiltered.adguard-dns.com:853
+      - tls://public.dns.iij.jp:853
+      - tls://dns.twnic.tw:853
+      - tls://dot.sb:853
+      - quic://dns-unfiltered.adguard.com:784
     fallback-filter:
       geoip: true
       geoip-code: CN
