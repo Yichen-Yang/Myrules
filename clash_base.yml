@@ -128,13 +128,11 @@ dns:
       - https://cn-a.iqiqz.com/cdn
       - https://cn-a-rsa.iqiqz.com/dns-query
       - https://cn-a-rsa.iqiqz.com/cdn
-      - quic://cn-a.ovo.glass:853
       - tls://cn-a.iqiqz.com:853
       - https://cn-b.iqiqz.com/dns-query
       - https://cn-b.iqiqz.com/cdn
       - https://cn-b-rsa.iqiqz.com/dns-query
       - https://cn-b-rsa.iqiqz.com/cdn
-      - quic://cn-b.iqiqz.com:853
       - https://doh.dns.sb/dns-query
       - https://cloudflare-dns.com/dns-query
       - https://dns.quad9.net/dns-query
@@ -150,7 +148,6 @@ dns:
       - tls://public.dns.iij.jp:853
       - tls://dns.twnic.tw:853
       - tls://dot.sb:853
-      - quic://dns-unfiltered.adguard.com:784
     fallback-filter:
       geoip: true
       geoip-code: CN
