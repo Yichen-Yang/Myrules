@@ -207,7 +207,6 @@ dns:
     - tls://101.101.101.101:853#🚀 节点选择
     - tls://dot.tiar.app:853#🚀 节点选择
     - tls://jp.tiar.app:853#🚀 节点选择
-    - tls://dns.oszx.co:853#🚀 节点选择
     - tls://dot1.applied-privacy.net:853#🚀 节点选择
     - tls://dns.decloudus.com:853#🚀 节点选择
     - tls://dnsforge.de:853#🚀 节点选择
@@ -323,7 +322,6 @@ dns:
       - tls://101.101.101.101:853#🚀 节点选择
       - tls://dot.tiar.app:853#🚀 节点选择
       - tls://jp.tiar.app:853#🚀 节点选择
-      - tls://dns.oszx.co:853#🚀 节点选择
       - tls://dot1.applied-privacy.net:853#🚀 节点选择
       - tls://dns.decloudus.com:853#🚀 节点选择
       - tls://dnsforge.de:853#🚀 节点选择
