@@ -118,26 +118,26 @@ dns:
     - https://i.233py.com/dns-query
     - https://v6.rubyfish.cn/dns-query
     - https://dns.cfiec.net/dns-query
-    - tls://dot.360.cn:853#DIRECT
-    - tls://dot.pub:853#DIRECT
-    - tls://dns.alidns.com:853#DIRECT
-    - tls://dns.rubyfish.cn:853#DIRECT
-    - tls://v6.rubyfish.cn:853#DIRECT
-    - tls://dns.ipv6dns.com:853#DIRECT
-    - tls://dns.cfiec.net:853#DIRECT
+    - tls://dot.360.cn:853
+    - tls://dot.pub:853
+    - tls://dns.alidns.com:853
+    - tls://dns.rubyfish.cn:853
+    - tls://v6.rubyfish.cn:853
+    - tls://dns.ipv6dns.com:853
+    - tls://dns.cfiec.net:853
   fallback:
     - https://doh.apad.pro/dns-query
     - https://cn-a.iqiqz.com/dns-query
     - https://cn-a.iqiqz.com/cdn
     - https://cn-a-rsa.iqiqz.com/dns-query
     - https://cn-a-rsa.iqiqz.com/cdn
-    - quic://cn-a.ovo.glass:853#DIRECT
-    - tls://cn-a.iqiqz.com:853#DIRECT
+    - quic://cn-a.ovo.glass:853
+    - tls://cn-a.iqiqz.com:853
     - https://cn-b.iqiqz.com/dns-query
     - https://cn-b.iqiqz.com/cdn
     - https://cn-b-rsa.iqiqz.com/dns-query
     - https://cn-b-rsa.iqiqz.com/cdn
-    - quic://cn-b.iqiqz.com:853#DIRECT
+    - quic://cn-b.iqiqz.com:853
     - https://doh.dns.sb/dns-query#🚀 节点选择
     - https://cloudflare-dns.com/dns-query#🚀 节点选择
     - https://dns10.quad9.net/dns-query#🚀 节点选择
@@ -169,13 +169,13 @@ dns:
       - https://i.233py.com/dns-query
       - https://v6.rubyfish.cn/dns-query
       - https://dns.cfiec.net/dns-query
-      - tls://dot.360.cn:853#DIRECT
-      - tls://dot.pub:853#DIRECT
-      - tls://dns.alidns.com:853#DIRECT
-      - tls://dns.rubyfish.cn:853#DIRECT
-      - tls://v6.rubyfish.cn:853#DIRECT
-      - tls://dns.ipv6dns.com:853#DIRECT
-      - tls://dns.cfiec.net:853#DIRECT
+      - tls://dot.360.cn:853
+      - tls://dot.pub:853
+      - tls://dns.alidns.com:853
+      - tls://dns.rubyfish.cn:853
+      - tls://v6.rubyfish.cn:853
+      - tls://dns.ipv6dns.com:853
+      - tls://dns.cfiec.net:853
     geosite:gfw,geolocation-!cn:
       - https://doh.dns.sb/dns-query#🚀 节点选择
       - https://cloudflare-dns.com/dns-query#🚀 节点选择
