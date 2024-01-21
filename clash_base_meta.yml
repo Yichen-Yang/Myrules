@@ -1,4 +1,5 @@
 dns:
+  cache-algorithm: arc
   enable: true
   listen: 0.0.0.0:53
   ipv6: true
@@ -243,6 +244,9 @@ geox-url:
   geoip: "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geoip.dat"
   geosite: "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geosite.dat"
   mmdb: "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/country.mmdb"
+geo-auto-update: true
+geo-update-interval: 24
+
 allow-lan: true
 tcp-concurrent: true
 mixed-port: 7890
