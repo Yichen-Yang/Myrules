@@ -123,6 +123,8 @@ dns:
       - tls://dns.ipv6dns.com:853
       - tls://dns.cfiec.net:853
     fallback:
+      - https://pdns.itxe.net/dns-query
+      - tls://pdns.itxe.net:853
       - https://doh.apad.pro/dns-query
       - https://cn-a.iqiqz.com/dns-query
       - https://cn-a.iqiqz.com/cdn
