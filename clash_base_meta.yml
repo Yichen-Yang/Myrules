@@ -248,7 +248,6 @@ geox-url:
   mmdb: "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/country.mmdb"
 geo-auto-update: true
 geo-update-interval: 24
-
 allow-lan: true
 tcp-concurrent: true
 mixed-port: 7890
@@ -256,7 +255,6 @@ log-level: silent
 ipv6: true
 experimental:
   ignore-resolve-fail: true
-  sniff-tls-sni: true
 external-controller: '0.0.0.0:9090'
 cfw-latency-timeout: 3000
 cfw-latency-url: https://www.google.com/generate_204
