@@ -4,6 +4,22 @@ dns:
   listen: 0.0.0.0:53
   ipv6: true
   prefer-h3: false
+  proxy-server-nameserver:
+    - https://pdns.itxe.net/dns-query
+    - tls://pdns.itxe.net:853
+    - https://doh.apad.pro/dns-query
+    - https://doh.dns.sb/dns-query
+    - https://cloudflare-dns.com/dns-query
+    - https://dns10.quad9.net/dns-query
+    - https://doh.opendns.com/dns-query
+    - https://public.dns.iij.jp/dns-query
+    - https://dns.twnic.tw/dns-query
+    - https://unfiltered.adguard-dns.com/dns-query
+    - tls://dns10.quad9.net:853
+    - tls://dns11.quad9.net:853
+    - tls://unfiltered.adguard-dns.com:853
+    - tls://dns.twnic.tw:853
+    - tls://dns.umbrella.com:853
   default-nameserver:
     - tls://223.5.5.5:853
     - tls://223.6.6.6:853
