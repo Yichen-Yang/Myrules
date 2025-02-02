@@ -3,6 +3,7 @@ dns:
   enable: true
   listen: 0.0.0.0:53
   ipv6: true
+  ipv6-timeout: 300
   prefer-h3: false
   proxy-server-nameserver:
     - https://pdns.itxe.net/dns-query
