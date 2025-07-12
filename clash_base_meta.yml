@@ -6,17 +6,13 @@ dns:
   ipv6-timeout: 300
   prefer-h3: false
   proxy-server-nameserver:
-    - https://doh.dns.sb/dns-query
     - https://dns.cloudflare.com/dns-query
-    - https://dns10.quad9.net/dns-query
-    - https://doh.opendns.com/dns-query
-    - https://public.dns.iij.jp/dns-query
-    - https://dns.twnic.tw/dns-query
-    - https://unfiltered.adguard-dns.com/dns-query
+    - https://doh-pure.onedns.net/dns-query
+    - tls://1dot1dot1dot1.cloudflare-dns.com:853
     - tls://dns10.quad9.net:853
     - tls://unfiltered.adguard-dns.com:853
-    - tls://dns.twnic.tw:853
     - tls://dns.umbrella.com:853
+    - tls://dot-pure.onedns.net:853
   default-nameserver:
     - tls://223.5.5.5:853
     - tls://223.6.6.6:853
@@ -144,6 +140,8 @@ dns:
     - tls://dns.ipv6dns.com:853
     - tls://dns.cfiec.net:853
   fallback:
+    - https://doh-pure.onedns.net/dns-query
+    - tls://dot-pure.onedns.net:853
     - 'https://doh.dns.sb/dns-query#🚀 节点选择'
     - 'https://cloudflare-dns.com/dns-query#🚀 节点选择'
     - 'https://dns10.quad9.net/dns-query#🚀 节点选择'
