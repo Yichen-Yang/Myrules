@@ -143,7 +143,7 @@ dns:
     - https://doh-pure.onedns.net/dns-query
     - tls://dot-pure.onedns.net:853
     - 'https://doh.dns.sb/dns-query#🚀 节点选择'
-    - 'https://cloudflare-dns.com/dns-query#🚀 节点选择'
+    - 'https://dns.cloudflare.com/dns-query#🚀 节点选择'
     - 'https://dns10.quad9.net/dns-query#🚀 节点选择'
     - 'https://doh.opendns.com/dns-query#🚀 节点选择'
     - 'https://dns.google/dns-query#🚀 节点选择'
@@ -180,7 +180,7 @@ dns:
       - tls://dns.cfiec.net:853
     geosite:gfw,geolocation-!cn:
       - 'https://doh.dns.sb/dns-query#🚀 节点选择'
-      - 'https://cloudflare-dns.com/dns-query#🚀 节点选择'
+      - 'https://dns.cloudflare.com/dns-query#🚀 节点选择'
       - 'https://dns10.quad9.net/dns-query#🚀 节点选择'
       - 'https://doh.opendns.com/dns-query#🚀 节点选择'
       - 'https://dns.google/dns-query#🚀 节点选择'
