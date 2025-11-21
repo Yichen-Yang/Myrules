@@ -6,6 +6,7 @@ dns:
   ipv6-timeout: 300
   prefer-h3: false
   proxy-server-nameserver:
+    - https://v.recipes/dns-query
     - https://dns.cloudflare.com/dns-query
     - https://doh-pure.onedns.net/dns-query
     - tls://1dot1dot1dot1.cloudflare-dns.com:853
@@ -142,6 +143,7 @@ dns:
   fallback:
     - https://doh-pure.onedns.net/dns-query
     - tls://dot-pure.onedns.net:853
+    - https://v.recipes/dns-query
     - 'https://doh.dns.sb/dns-query#🚀 节点选择'
     - 'https://dns.cloudflare.com/dns-query#🚀 节点选择'
     - 'https://dns10.quad9.net/dns-query#🚀 节点选择'
